@@ -173,11 +173,16 @@ form {
 }
 
 
-@media only screen and (max-width: 64em) {
-}
-
 /*PHONE*/
 @media only screen and (max-width: 37.5em) {
+    #why {
+        background-color: lightgrey;
+        color: black;
+        font-weight: bold;
+        font-size:50px;
+        padding-top: 20px;
+
+    }
 
 
 }
