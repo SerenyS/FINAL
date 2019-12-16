@@ -1,0 +1,184 @@
+body {
+    background-color: black;
+}
+
+h1, h2, h3, h4, p, main {
+    color: white;
+}
+
+main {
+    display: block;
+    margin: auto;
+    padding: 30px;
+
+}
+
+form {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 120px;
+    padding: 5px;
+}
+
+.carousel-item {
+    height: 800px;
+    width: 1000px;
+}
+
+.propertiesList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.property {
+    border: 2px solid palegoldenrod;
+    margin: 5px auto;
+    height: 400px;
+    width: 400px;
+    font-size: 0.9em;
+}
+
+.property figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.property img {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.property figcaption {
+    text-align: center;
+    height: 50px;
+    width: 155px;
+    overflow: hidden;
+    margin: 2px;
+}
+
+.property div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.property span {
+    margin-right: 5px;
+}
+
+.property figcaption, span {
+    color: white;
+}
+
+.location {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.backdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    margin: 450px;
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    border-radius: 14px;
+}
+
+.view {
+    border-radius: 9px;
+    background-color: white;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.team {
+    height: 500px;
+    width: 500px;
+    border: solid palegoldenrod;
+    padding: 15px;
+}
+
+.nav-link {
+    width: 200px;
+}
+
+#contacUs {
+    height: 500px;
+    background-image: url(media/contactus.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#why {
+    background-color: lightgrey;
+    color: black;
+    font-weight: bold;
+    font-size: 100px;
+    padding-top: 50px;
+
+}
+
+#displayModal {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#close {
+    border-radius: 10px;
+    background-color: lightgrey;
+    color: black;
+    font-weight: bold;
+    border: black;
+}
+
+#submit {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#image1 {
+    background-image: url(media/teamone.jpg);
+    height: 300px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#image2 {
+    background-image: url(media/teamtwo.jpg);
+    height: 300px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 64em) {
+}
+
+/*PHONE*/
+@media only screen and (max-width: 37.5em) {
+
+
+}
+
